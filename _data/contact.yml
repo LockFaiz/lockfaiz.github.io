@@ -6,9 +6,13 @@
 - type: twitter
   icon: "fa-brands fa-x-twitter"
 
-- type: email
-  icon: "fas fa-envelope"
-  noblank: true # open link in current tab
+# - type: email
+#   icon: "fas fa-envelope"
+#   noblank: false # open link in current tab
+
+- type: Google Scholar
+  icon: "fa-brands fa-google-scholar"
+  url: "https://scholar.google.com/citations?user=y-kjmf4AAAAJ&hl"
 
 - type: instagram
   icon: "fa-brands fa-square-instagram"
