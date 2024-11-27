@@ -16,7 +16,7 @@ timezone: Asia/Shanghai
 
 title: Jian Song # the main title
 
-tagline: El Psy Congroo # it will display as the subtitle
+tagline: Jian Song's Homepage, El Psy Congroo. # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   A minimal, responsive and feature-rich Jekyll theme for technical writing.
@@ -148,7 +148,8 @@ pwa:
     deny_paths:
       # - "/example"  # URLs match `<SITE_URL>/example/*` will not be cached by the PWA
 
-paginate: 10
+paginate: 5
+paginate_path: "/blog/:num/"
 
 # The base URL of your site
 baseurl: ""

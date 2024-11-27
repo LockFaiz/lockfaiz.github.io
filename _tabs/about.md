@@ -1,21 +1,30 @@
 ---
 # the default layout is 'page'
+layout: post
 icon: fas fa-info-circle
 order: 1
+permalink: /
+title: About
+toc: true
 ---
 
 <!-- > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip } -->
-I am actively looking for Ph.D. positions 2025 fall.  
+## Short Bio
+I am actively looking for Ph.D. positions 2025 fall.<br>
 Currently, I am a Research Assistant (from Spring, 2023) at the Machine Intelligence Lab([MiLAB](https://milab.westlake.edu.cn/index.html)), School of Engineering, Westlake University, collaborating with [Prof. Donglin Wang(王东林)](https://scholar.google.ca/citations?user=-fo6wdwAAAAJ&hl) and Dr. Xiangfei Yang(杨祥飞).
+## <i class="fa-brands fa-gripfire"></i> Research Interests
 My research interests and experience cover the integration of Neuromorphic Computing and Machine Learning, i.e., brain-inspired algorithms and spiking neural networks(SNN), including
-- <i class="fa-solid fa-school"></i> Spiking Reinforcement Learning<br>Utilizing ANN-SNN hybrid training or ANN2SNN conversion strategies to optimize the balance between performance and energy-consumption of agents. 
-- <i class="fa-solid fa-camera-retro"></i> Event Camera Recognition<br>Improving the recognition accuracy of transformer-based networks on DVS and RGB datasets, aiming for low-latency and low-power autonomous driving.
-- <i class="fa-solid fa-robot"></i> LLM in Robotic Learning<br>Developing advanced robotic learning systems that integrate multiple sensory modalities, such as vision, 3D geometric data, text and auditory inputs, to achieve a comprehensive understanding of the environmen.
+- Spiking Reinforcement Learning <i class="fa-solid fa-school"></i>  
+Utilizing ANN-SNN hybrid training or ANN2SNN conversion strategies to optimize the balance between performance and energy-consumption of agents. 
+- Event Camera Recognition <i class="fa-solid fa-camera-retro"></i>  
+Improving the recognition accuracy of transformer-based networks on DVS and RGB datasets, aiming for low-latency and low-power autonomous driving.
+- LLM in Robotic Learning<i class="fa-solid fa-robot"></i>  
+Developing advanced robotic learning systems that integrate multiple sensory modalities, such as vision, 3D geometric data, text and auditory inputs, to achieve a comprehensive understanding of the environmen.
 
 Additionally, I have a strong background in life sciences, including molecular biology, structural biology, and neuroscience. I have also collaborated with [Professor Yi Sun(孙一)](https://scholar.google.com/citations?user=MGaoXkwAAAAJ&hl) on research exploring the mechanisms of biological neural systems using machine learning methods. I am interested in NLP for Science.
 
-## Publications
+## <i class="fa-solid fa-scroll"></i> Publications
 <!-- ![image](assets/img/paper/yang3-p6-yang-small.gif){: style='float: left'}
 Adaptive Spiking TD3+BC for Offline-To-Online Spiking Reinforcement Learning  
 Xiangefei Yang, <b>Jian Song</b>, Xuetao Zhang, Donglin Wang -->
@@ -34,6 +43,8 @@ Xiangefei Yang, <strong>Jian Song</strong>, Xuetao Zhang, Donglin Wang</p>
 ## Projects
 
 ## <i class="fa-solid fa-book"></i> Educations
-- 2021.09 - 2022.09, M.Sc in Drug Discovery and Translational Biology with Merit, The University of Edinburgh
-## Contact
+- 2021.09 - 2022.09, M.Sc in Drug Discovery and Translational Biology with Merit, The University of Edinburgh, Scotland, UK.
+- 2017.09 - 2021.06, B.Sc in Biotechnology, Central China Normal University, Wuhan, China.
+
+## <i class="fa-solid fa-inbox"></i> Contact
 Email: kivated [AT] outlook [DOT] com; songjian76 [AT] westlake [DOT] edu [DOT] cn
