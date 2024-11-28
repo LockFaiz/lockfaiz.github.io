@@ -1,3 +1,6 @@
 [submodule "assets/lib"]
 	path = assets/lib
 	url = https://github.com/cotes2020/chirpy-static-assets.git
+[submodule "songjian"]
+	path = songjian
+	url = https://github.com/alshedivat/al-folio.git
