@@ -6,8 +6,8 @@ order: 1
 permalink: /
 title: About
 toc: true
-news: false # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
+news: true # includes a list of news items
+selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
@@ -31,20 +31,20 @@ Additionally, I have a strong background in life sciences, including molecular b
 <!-- ![image](assets/img/paper/yang3-p6-yang-small.gif){: style='float: left'}
 Adaptive Spiking TD3+BC for Offline-To-Online Spiking Reinforcement Learning  
 Xiangefei Yang, <b>Jian Song</b>, Xuetao Zhang, Donglin Wang -->
+- [Adaptive Spiking TD3+BC for Offline-To-Online Spiking Reinforcement Learning](https://ieeexplore.ieee.org/abstract/document/10650965)
+<!-- ![AdaptiveSpikingTD3+BC](assets/img/paper/AdaSpike.png) -->
+<img src="assets/img/paper/AdaSpike.png"  style="zoom: 10%;" /><br>
+Xiangefei Yang, **Jian Song**, Xuetao Zhang, Donglin Wang<br>
+2024 International Joint Conference on Neural Networks (IJCNN), Yokohama, Japan.<br>
 
-<div class="paper-box"><div class="paper-box-image"><div><div class="badge">IJCNN 2024</div><img src="assets/img/paper/yang3-p6-yang-small.gif" alt="sym" width="100%" /></div></div>
-<div class="paper-box-text">
+- [Calibrating the Converted Spiking Reinforcement Learning](https://link.springer.com/chapter/10.1007/978-981-97-5581-3_34)<br> 
+**Jian Song**, Xiangefei Yang, Xuetao Zhang, Donglin Wang<br>
+2024 International Conference on Intelligent Computing(ICIC), Tianjin, China.<br>
 
-    <p>Adaptive Spiking TD3+BC for Offline-To-Online Spiking Reinforcement Learning <br />
-Xiangefei Yang, <strong>Jian Song</strong>, Xuetao Zhang, Donglin Wang</p>
-    <ul>
-      <li>An offline spiking reinforcement learning algorithm.</li>
-      <li><a href="https://ieeexplore.ieee.org/abstract/document/10650965"><img src="https://img.shields.io/badge/Paper-fff?logo=readthedocs&amp;logoColor=000" alt="" /></a> | <a href="https://github.com/LockFaiz/AdaSpikTD3BC"><img src="https://img.shields.io/badge/Code-fff?logo=github&amp;logoColor=000" alt="" /></a></li>
-    </ul>
-  </div>
-</div>
 ## Projects
-
+- WAVEGO, a 12-DOF Bionic Dog-Like Robot
+- Trajectory prediction of neural visual motor system
+- Neuromorphic imitation learning, SpikeCEIL and related spiking baselines(GAIL, AIRL, SQIL, IQ Learn)
 ## <i class="fa-solid fa-book"></i> Educations
 - 2021.09 - 2022.09, M.Sc in Drug Discovery and Translational Biology with Merit, The University of Edinburgh, Scotland, UK.
 - 2017.09 - 2021.06, B.Sc in Biotechnology, Central China Normal University, Wuhan, China.
