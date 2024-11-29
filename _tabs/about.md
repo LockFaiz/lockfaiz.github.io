@@ -33,7 +33,7 @@ Adaptive Spiking TD3+BC for Offline-To-Online Spiking Reinforcement Learning
 Xiangefei Yang, <b>Jian Song</b>, Xuetao Zhang, Donglin Wang -->
 - [Adaptive Spiking TD3+BC for Offline-To-Online Spiking Reinforcement Learning](https://ieeexplore.ieee.org/abstract/document/10650965)
 <!-- ![AdaptiveSpikingTD3+BC](assets/img/paper/AdaSpike.png) -->
-<img src="assets/img/paper/AdaSpike.png"  style="zoom: 10%;" /><br>
+<img src="assets/img/paper/AdaSpike.png" alt="AdaSpike project image" style="zoom: 10%;"/><br>
 Xiangefei Yang, **Jian Song**, Xuetao Zhang, Donglin Wang<br>
 2024 International Joint Conference on Neural Networks (IJCNN), Yokohama, Japan.<br>
 
