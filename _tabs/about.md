@@ -1,6 +1,6 @@
 ---
 # the default layout is 'page'
-layout: about
+layout: post
 icon: fas fa-info-circle
 order: 1
 permalink: /
