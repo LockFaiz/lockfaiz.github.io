@@ -14,15 +14,15 @@ social: false # includes social icons at the bottom of the page
 <!-- > Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
 {: .prompt-tip } -->
 ## Short Bio
-I am actively looking for Ph.D. positions 2025 fall.<br>
-Currently, I am a Research Assistant (from Spring, 2023) at the Machine Intelligence Lab([MiLAB](https://milab.westlake.edu.cn/index.html)), School of Engineering, Westlake University, collaborating with [Prof. Donglin Wang(王东林)](https://scholar.google.ca/citations?user=-fo6wdwAAAAJ&hl) and Dr. Xiangfei Yang(杨祥飞).
+I am actively seeking Ph.D. positions for the Fall 2025 intake.<br>
+Currently, I am a Research Assistant (from Spring 2023) at the Machine Intelligence Lab([MiLAB](https://milab.westlake.edu.cn/index.html)), School of Engineering, Westlake University, collaborating with [Prof. Donglin Wang(王东林)](https://scholar.google.ca/citations?user=-fo6wdwAAAAJ&hl) and Dr. Xiangfei Yang(杨祥飞).
 ## <i class="fa-brands fa-gripfire"></i> Research Interests
 My research interests and experience cover the integration of Neuromorphic Computing and Machine Learning, i.e., brain-inspired algorithms and spiking neural networks(SNN), including
 - Spiking Reinforcement Learning<br>
 Utilizing ANN-SNN hybrid training or ANN2SNN conversion strategies to optimize the balance between performance and energy-consumption of agents. 
 - Event Camera Recognition<br>
 Improving the recognition accuracy of transformer-based networks on DVS and RGB datasets, aiming for low-latency and low-power autonomous driving.
-- LLM in Robotic Learning<br>
+- VLM in Robotic Learning<br>
 Developing advanced robotic learning systems that integrate multiple sensory modalities, such as vision, 3D geometric data, text and auditory inputs, to achieve a comprehensive understanding of the environmen.
 
 Additionally, I have a strong background in life sciences, including molecular biology, structural biology, and neuroscience. I have also collaborated with [Professor Yi Sun(孙一)](https://scholar.google.com/citations?user=MGaoXkwAAAAJ&hl) on research exploring the mechanisms of biological neural systems using machine learning methods. I am interested in NLP for Science.
