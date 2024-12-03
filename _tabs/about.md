@@ -20,9 +20,9 @@ Currently, I am a Research Assistant (from Spring 2023) at the Machine Intellige
 My research interests and experience cover the integration of Neuromorphic Computing and Machine Learning, i.e., brain-inspired algorithms and spiking neural networks(SNN), including
 - **Neuromorphic Computation**<br>
 For reinforcement learning, I utilize ANN-SNN hybrid training or ANN2SNN conversion strategies to optimize the balance between performance and energy-consumption of agents. Additionally, I aim to enhance the accuracy of brain-inspired algorithms in learning from different modalities, including images, text, and 3D data. This multidisciplinary approach allows for the development of more efficient and effective neuromorphic systems.
-- Event Camera Recognition<br>
+- **Event Camera Recognition**<br>
 Improving the recognition accuracy of transformer-based networks on DVS and RGB datasets, aiming for low-latency and low-power autonomous driving.
-- VLM in Robotic Learning<br>
+- **VLM in Robotic Learning**<br>
 Developing advanced robotic learning systems that integrate multiple sensory modalities, including vision, 3D geometric data, text to achieve a comprehensive understanding of the environment.
 
 Additionally, I have a strong background in life science, including molecular biology, structural biology, and neuroscience. I have also collaborated with [Professor Yi Sun(孙一)](https://scholar.google.com/citations?user=MGaoXkwAAAAJ&hl) on research exploring the mechanisms of biological neural systems using machine learning methods. I am interested in NLP for Science.
