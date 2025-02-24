@@ -11,7 +11,7 @@ social: false # includes social icons at the bottom of the page
 
 ## <i class="fa-regular fa-face-laugh-wink"></i> Short Bio
 <!-- I am actively seeking Ph.D. positions for the Fall 2025 intake.<br> -->
-I am actively seeking Ph.D. positions.<br>
+I am actively seeking Ph.D. positions..<br>
 Currently, I am a Research Assistant (from Spring 2023) at the Machine Intelligence Lab ([MiLAB](https://milab.westlake.edu.cn/index.html)), School of Engineering, Westlake University, collaborating with [Prof. Donglin Wang(王东林)](https://scholar.google.ca/citations?user=-fo6wdwAAAAJ&hl) and Dr. Xiangfei Yang(杨祥飞).
 ## <i class="fa-brands fa-gripfire"></i> Research Interests
 My research interests and experience cover the integration of Neuromorphic Computing and Machine Learning, i.e., brain-inspired algorithms and spiking neural networks(SNN), including
