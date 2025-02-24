@@ -9,7 +9,7 @@ main:
     bibtex:
     location: Yokohama, Japan
     year: 2024
-    image: ./assets/img/paper/AdaSpike.png
+    image: ./assets/img/paper/AdaSpike.png.png
     notes:
 
   - title: Calibrating the Converted Spiking Reinforcement Learning
@@ -24,7 +24,7 @@ main:
     year: 2024
     notes: Oral
     image:
-    # image: ./assets/img/avatar/avatar.png
+    # image: ./assets/img/avatar/avatar.png.png
 
   - title: Beyond Timesteps A Novel Activation-wise Membrane Potential Propagation Mechanism for Spiking Neural Networks in 3D cloud
     authors: <strong>Jian Song</strong>, Boxuan Zheng, Xiangfei Yang, Donglin Wang
@@ -32,4 +32,4 @@ main:
     conference_short: Preprint
     year: 2025
     location: Arxiv
-    image: ./assets/img/paper/SpikingPipeline.png
+    image: ./assets/img/paper/SpikingPipeline.png.png
