@@ -1,0 +1,35 @@
+main:
+  - title: Adaptive Spiking TD3+BC for Offline-To-Online Spiking Reinforcement Learning
+    # authors: Yixiao Zhang, Xinyi Li, Huimiao Chen, Alan Yuille, <strong>Yaoyao Liu*</strong>, Zongwei Zhou* (*Corresponding authors)
+    authors: Xiangefei Yang, <strong>Jian Song</strong>, Xuetao Zhang, Donglin Wang
+    conference_short: IJCNN
+    conference: International Joint Conference on Neural Networks <strong>(IJCNN)</strong>.
+    pdf: https://ieeexplore.ieee.org/abstract/document/10650965
+    code:
+    bibtex:
+    location: Yokohama, Japan
+    year: 2024
+    image: ./assets/img/paper/AdaSpike.png
+    notes:
+
+  - title: Calibrating the Converted Spiking Reinforcement Learning
+    authors: <strong>Jian Song</strong>, Xiangefei Yang, Xuetao Zhang, Donglin Wang
+    conference_short: ICIC
+    conference: International Conference on Intelligent Computing <strong>(ICIC)</strong>.
+    pdf: https://link.springer.com/chapter/10.1007/978-981-97-5581-3_34
+    code:
+    page:
+    bibtex:
+    location: Tianjin, China
+    year: 2024
+    notes: Oral
+    image:
+    # image: ./assets/img/avatar/avatar.png
+
+  - title: Beyond Timesteps A Novel Activation-wise Membrane Potential Propagation Mechanism for Spiking Neural Networks in 3D cloud
+    authors: <strong>Jian Song</strong>, Boxuan Zheng, Xiangfei Yang, Donglin Wang
+    pdf: https://arxiv.org/abs/2502.12791
+    conference_short: Preprint
+    year: 2025
+    location: Arxiv
+    image: ./assets/img/paper/SpikingPipeline.png

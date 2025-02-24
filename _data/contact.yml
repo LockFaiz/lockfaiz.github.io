@@ -10,9 +10,16 @@
   icon: "fas fa-envelope"
   noblank: true # open link in current tab
 
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
+- type: Google Scholar
+  icon: "fa-brands fa-google-scholar"
+  url: "https://scholar.google.com/citations?user=y-kjmf4AAAAJ&hl"
+
+- type: instagram
+  icon: "fa-brands fa-square-instagram"
+  url: "https://www.instagram.com/lockfaiz/"
+# - type: rss
+#   icon: "fas fa-rss"
+#   noblank: true
 # Uncomment and complete the url below to enable more contact options
 #
 # - type: mastodon
