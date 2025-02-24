@@ -16,7 +16,7 @@ main:
     authors: <strong>Jian Song</strong>, Xiangefei Yang, Xuetao Zhang, Donglin Wang
     conference_short: ICIC
     conference: International Conference on Intelligent Computing <strong>(ICIC)</strong>.
-    pdf: https://link.springer.com/chapter/10.1007/978-981-97-5581-3_34
+    pdf: /assets/file/Jian_CalSpikTD3BC.pdf
     code:
     page:
     bibtex:
@@ -24,7 +24,7 @@ main:
     year: 2024
     notes: Oral
     image:
-    # image: ./assets/img/avatar/avatar.png.png
+    image: ./assets/img/paper/cali.png
 
   - title: Beyond Timesteps A Novel Activation-wise Membrane Potential Propagation Mechanism for Spiking Neural Networks in 3D cloud
     authors: <strong>Jian Song</strong>, Boxuan Zheng, Xiangfei Yang, Donglin Wang
