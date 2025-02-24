@@ -22,6 +22,6 @@ package-lock.json
 !.vscode/extensions.json
 !.vscode/tasks.json
 
-# Misc
+# Misc 忽视一下文件
 _sass/vendors
 assets/js/dist
