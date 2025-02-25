@@ -351,8 +351,10 @@ blockquote {
   margin-top: 5px;
   margin-left: 5px;
   margin-bottom: 5px;
-  // object-fit: cover;
-  background-size: cover; /* 确保背景图片填满容器 */
-  background-position: center; /* 确保背景图片居中显示 */
-  background-repeat: no-repeat; /* 确保背景图片不重复 */
+  object-fit: cover;
+  // background-size: cover; /* 确保背景图片填满容器 */
+  // background-position: center; /* 确保背景图片居中显示 */
+  // background-repeat: no-repeat; /* 确保背景图片不重复 */
+  width: 100%; /* 确保图片宽度填满容器 */
+  height: 100%; /* 确保图片高度填满容器 */
 }
