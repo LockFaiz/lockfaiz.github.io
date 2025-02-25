@@ -13,15 +13,15 @@
   align-items: center;
 }
 
-.col-sm-3 {
-  flex: 0 0 25%; /* Ensure the column takes up 25% of the width */
-  max-width: 25%; /* Ensure the column does not exceed 25% of the width */
-}
+// .col-sm-3 {
+//   flex: 0 0 25%; /* Ensure the column takes up 25% of the width */
+//   max-width: 25%; /* Ensure the column does not exceed 25% of the width */
+// }
 
-.col-sm-9 {
-  flex: 0 0 75%; /* Ensure the column takes up 75% of the width */
-  max-width: 75%; /* Ensure the column does not exceed 75% of the width */
-}
+// .col-sm-9 {
+//   flex: 0 0 75%; /* Ensure the column takes up 75% of the width */
+//   max-width: 75%; /* Ensure the column does not exceed 75% of the width */
+// }
 
 // .teaser {
 //   max-width: 100%; /* Ensure the image does not exceed its container's width */
