@@ -1,11 +1,12 @@
 ---
 ---
 
-@use 'main
-{%- if jekyll.environment == ' production ' -%}
-  .bundle
-{%- endif -%}
-';
+@use 'main';
+// @use 'main
+// {%- if jekyll.environment == ' production ' -%}
+//   .bundle
+// {%- endif -%}
+// ';
 
 /* append your custom style below */
 .pub-row {
