@@ -53,7 +53,8 @@ Under Review<br>
 - 2021.09 - 2022.09, M.Sc in Drug Discovery and Translational Biology with Merit, The University of Edinburgh, Scotland, UK.
 - 2017.09 - 2021.06, B.Sc in Biotechnology, Central China Normal University, Wuhan, China.
 
-## <i class="fa-solid fa-inbox"></i> Contact
-Email: kivated [AT] outlook [DOT] com; songjian76 [AT] westlake [DOT] edu [DOT] cn
+## <i class="fa-solid fa-inbox"></i> Email
+- kivated [AT] outlook [DOT] com; 
+- songjian76 [AT] westlake [DOT] edu [DOT] cn
 
 
