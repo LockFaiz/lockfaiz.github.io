@@ -1,12 +1,12 @@
 ---
-layout: page
+layout: post
 icon: fas fa-info-circle
 order: 1
 permalink: /about/
 title: About
 toc: true
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: false # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: true # includes social icons at the bottom of the page
 ---
 
 ## <i class="fa-regular fa-face-laugh-wink"></i> Short Bio

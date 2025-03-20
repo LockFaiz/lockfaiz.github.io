@@ -1,6 +1,7 @@
 # The Site Configuration
 
 # Import the theme
+
 theme: jekyll-theme-chirpy
 
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
@@ -23,7 +24,8 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://lockfaiz.github.io"
+url: 
+# url: "https://lockfaiz.github.io"
 
 github:
   username: LockFaiz # change to your GitHub username
