@@ -175,12 +175,13 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
   }
 
   .sidebar-bottom {
-    padding-left: 2rem;
+    padding-left: 1rem;
     padding-right: 1rem;
     margin-bottom: 1.5rem;
 
     @include bp.xxxl {
-      padding-left: 2.75rem;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
       margin-bottom: 1.75rem;
     }
 
@@ -189,7 +190,6 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     %button {
       width: $btn-size;
       height: $btn-size;
-      margin-bottom: $btn-mb; // multi line gap
       border-radius: 50%;
       color: var(--sidebar-btn-color);
       background-color: var(--sidebar-btn-bg);
@@ -207,18 +207,36 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
       }
     }
 
+    .sidebar-bottom-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: v.$sb-btn-gap;
+
+      @include bp.xxxl {
+        gap: v.$sb-btn-gap-lg;
+      }
+    }
+
+    .mode-toggle-row {
+      margin-bottom: 0.6rem;
+    }
+
+    .contact-icons-row {
+      max-width: calc(3 * #{$btn-size} + 2 * #{v.$sb-btn-gap});
+
+      @include bp.xxxl {
+        max-width: calc(3 * #{$btn-size} + 2 * #{v.$sb-btn-gap-lg});
+      }
+
+      margin-left: auto;
+      margin-right: auto;
+    }
+
     a {
       @extend %button;
       @extend %sidebar-link-hover;
       @extend %clickable-transition;
-
-      &:not(:last-child) {
-        margin-right: v.$sb-btn-gap;
-
-        @include bp.xxxl {
-          margin-right: v.$sb-btn-gap-lg;
-        }
-      }
     }
 
     i {
@@ -229,22 +247,6 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
       @extend %button;
       @extend %sidebar-links;
       @extend %sidebar-link-hover;
-    }
-
-    .icon-border {
-      @extend %no-cursor;
-      @include mx.ml-mr(calc((v.$sb-btn-gap - $btn-border-width) / 2));
-
-      background-color: var(--sidebar-btn-color);
-      content: '';
-      width: $btn-border-width;
-      height: $btn-border-width;
-      border-radius: 50%;
-      margin-bottom: $btn-mb;
-
-      @include bp.xxxl {
-        @include mx.ml-mr(calc((v.$sb-btn-gap-lg - $btn-border-width) / 2));
-      }
     }
   } /* .sidebar-bottom */
 } /* #sidebar */
