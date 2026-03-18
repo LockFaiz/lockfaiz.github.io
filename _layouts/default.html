@@ -84,22 +84,6 @@ layout: compress
     {% include_cached search-loader.html lang=lang %}
 
     <!-- Sidebar collapse toggle (desktop) -->
-    <script>
-    document.addEventListener('DOMContentLoaded', function () {
-      var btn = document.getElementById('sidebar-collapse-btn');
-      var sidebar = document.getElementById('sidebar');
-      if (!btn || !sidebar) return;
-
-      // Restore saved state
-      if (localStorage.getItem('sidebar-collapsed') === 'true') {
-        sidebar.classList.add('collapsed');
-      }
-
-      btn.addEventListener('click', function () {
-        sidebar.classList.toggle('collapsed');
-        localStorage.setItem('sidebar-collapsed', sidebar.classList.contains('collapsed'));
-      });
-    });
-    </script>
+    <script defer src="{{ '/assets/js/sidebar-collapse.js' | relative_url }}"></script>
   </body>
 </html>
