@@ -23,10 +23,10 @@ I am originally from Xinzheng, Henan — a city rich in history as the legendary
 
 ## Research Interests
 
-**University of Colorado Denver** (2025 – present, advised by [Prof. Zhengxiong Li](https://cse.ucdenver.edu/~lizheng/))
+**University of Colorado Denver** (2025 – present, advised by <a href="https://cse.ucdenver.edu/~lizheng/" target="_blank" rel="noopener noreferrer">Prof. Zhengxiong Li</a>)
 - **Physical-space AI & Robotics**: Developing robotics-oriented AI systems that operate in and reason about the physical world, with a focus on tactile perception and multi-modal sensory integration for embodied intelligence.
 
-**Westlake University** (2023 – 2025, with [Prof. Donglin Wang](https://scholar.google.ca/citations?user=-fo6wdwAAAAJ&hl))
+**Westlake University** (2023 – 2025, with <a href="https://scholar.google.ca/citations?user=-fo6wdwAAAAJ&hl" target="_blank" rel="noopener noreferrer">Prof. Donglin Wang</a>)
 - **Neuromorphic Computation**: Utilizing ANN-SNN hybrid training and ANN2SNN conversion to optimize the balance between performance and energy consumption of RL agents across multiple modalities (images, text, 3D data).
 - **Event-based Vision**: Improving transformer-based recognition on DVS and RGB datasets for low-latency, low-power autonomous driving.
 - **VLM in Robotic Learning**: Integrating vision, 3D geometric data, and language for comprehensive robotic environment understanding.
