@@ -293,9 +293,9 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     color: var(--sidebar-btn-color);
     padding: 0;
     font-size: 0.7rem;
-    z-index: 10;
+    z-index: 1100;
     cursor: pointer;
-    transition: transform 0.3s, opacity 0.2s;
+    transition: transform 0.3s, opacity 0.2s, background-color 0.2s;
     opacity: 0;
 
     &:hover {
@@ -332,11 +332,21 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
     }
 
     #sidebar-collapse-btn {
-      right: -36px;
-      width: 36px;
-      height: 36px;
-      opacity: 0.8;
+      right: -40px;
+      width: 40px;
+      height: 40px;
+      opacity: 1;
       border-radius: 0 50% 50% 0;
+      background: var(--sidebar-active-color, #6c5ce7);
+      color: #fff;
+      border-color: transparent;
+      font-size: 0.85rem;
+      pointer-events: auto;
+
+      &:hover {
+        opacity: 1 !important;
+        filter: brightness(1.2);
+      }
 
       i {
         transform: rotate(180deg);
