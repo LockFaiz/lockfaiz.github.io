@@ -18,6 +18,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
   width: v.$sidebar-width;
   background: var(--sidebar-bg);
   border-right: 1px solid var(--sidebar-border-color);
+  transition: width 0.3s ease;
 
   /* Hide scrollbar for IE, Edge and Firefox */
   -ms-overflow-style: none; /* IE and Edge */
@@ -175,21 +176,37 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
   }
 
   .sidebar-bottom {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    @include mx.pl-pr(1.5rem);
     margin-bottom: 1.5rem;
 
     @include bp.xxxl {
-      padding-left: 1.5rem;
-      padding-right: 1.5rem;
+      @include mx.pl-pr(2.75rem);
       margin-bottom: 1.75rem;
     }
 
     $btn-size: 1.75rem;
 
-    %button {
+    .sidebar-bottom-mode {
+      margin-bottom: 0.25rem;
+    }
+
+    .sidebar-divider {
+      border: none;
+      border-top: 1px solid var(--sidebar-border-color);
+      margin: 0.4rem 0.5rem 0.5rem;
+      opacity: 0.5;
+    }
+
+    .sidebar-bottom-contacts {
+      display: flex;
+      flex-direction: column;
+      gap: 0.15rem;
+    }
+
+    %icon-btn {
       width: $btn-size;
       height: $btn-size;
+      min-width: $btn-size;
       border-radius: 50%;
       color: var(--sidebar-btn-color);
       background-color: var(--sidebar-btn-bg);
@@ -201,55 +218,128 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
       &:not(:focus-visible) {
         box-shadow: var(--sidebar-border-color) 0 0 0 1px;
       }
+    }
+
+    a {
+      @extend %sidebar-link-hover;
+      @extend %clickable-transition;
+
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.3rem 0.5rem;
+      border-radius: 0.5rem;
 
       &:hover {
         background-color: var(--sidebar-hover-bg);
       }
-    }
 
-    .sidebar-bottom-row {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: v.$sb-btn-gap;
-
-      @include bp.xxxl {
-        gap: v.$sb-btn-gap-lg;
-      }
-    }
-
-    .mode-toggle-row {
-      margin-bottom: 0.6rem;
-    }
-
-    .contact-icons-row {
-      max-width: calc(3 * #{$btn-size} + 2 * #{v.$sb-btn-gap});
-
-      @include bp.xxxl {
-        max-width: calc(3 * #{$btn-size} + 2 * #{v.$sb-btn-gap-lg});
+      i {
+        @extend %icon-btn;
+        line-height: $btn-size;
       }
 
-      margin-left: auto;
-      margin-right: auto;
-    }
-
-    a {
-      @extend %button;
-      @extend %sidebar-link-hover;
-      @extend %clickable-transition;
-    }
-
-    i {
-      line-height: $btn-size;
+      .contact-label {
+        font-size: 0.8rem;
+        font-weight: 500;
+        color: var(--sidebar-btn-color);
+        white-space: nowrap;
+      }
     }
 
     #mode-toggle {
-      @extend %button;
       @extend %sidebar-links;
       @extend %sidebar-link-hover;
+      @extend %clickable-transition;
+
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.3rem 0.5rem;
+      border-radius: 0.5rem;
+      width: 100%;
+      border: none;
+      background: transparent;
+      cursor: pointer;
+
+      &:hover {
+        background-color: var(--sidebar-hover-bg);
+      }
+
+      i {
+        @extend %icon-btn;
+        line-height: $btn-size;
+      }
+
+      .contact-label {
+        font-size: 0.8rem;
+        font-weight: 500;
+        color: var(--sidebar-btn-color);
+      }
     }
   } /* .sidebar-bottom */
+
+  #sidebar-collapse-btn {
+    display: none;
+    position: absolute;
+    top: 50%;
+    right: -14px;
+    transform: translateY(-50%);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: var(--sidebar-bg);
+    border: 1px solid var(--sidebar-border-color);
+    color: var(--sidebar-btn-color);
+    padding: 0;
+    font-size: 0.7rem;
+    z-index: 10;
+    cursor: pointer;
+    transition: transform 0.3s, opacity 0.2s;
+    opacity: 0;
+
+    &:hover {
+      opacity: 1 !important;
+      background-color: var(--sidebar-hover-bg);
+    }
+
+    @include bp.lg {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+
+  &:hover #sidebar-collapse-btn {
+    opacity: 0.6;
+  }
 } /* #sidebar */
+
+/* Sidebar collapsed state */
+#sidebar.collapsed {
+  @include bp.lg {
+    width: 0;
+    overflow: hidden;
+
+    #sidebar-collapse-btn {
+      right: -36px;
+      width: 36px;
+      height: 36px;
+      opacity: 0.8;
+      border-radius: 0 50% 50% 0;
+
+      i {
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
+
+#sidebar.collapsed + #main-wrapper {
+  @include bp.lg {
+    margin-left: 0;
+  }
+}
 
 [#{$sidebar-display}] {
   #main-wrapper {

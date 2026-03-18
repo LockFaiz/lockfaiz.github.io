@@ -1,0 +1,212 @@
+# Travel Photography Gallery
+# Fields: image, title, date, location, region
+
+- image: /assets/img/gallery/Xinjiang_Jul_2025.jpeg
+  title: Xinjiang
+  date: 2025-07-01
+  location: Xinjiang, China
+  region: China
+
+- image: /assets/img/gallery/Fujimi_Dec_2025.jpeg
+  title: Fujimi
+  date: 2025-12-01
+  location: Fujimi, Japan
+  region: Japan
+
+- image: /assets/img/gallery/Shinjuku_Jul_2024.jpeg
+  title: Shinjuku
+  date: 2024-07-01
+  location: Shinjuku, Tokyo, Japan
+  region: Japan
+
+- image: /assets/img/gallery/USJ_Jun_2024.jpeg
+  title: Universal Studios Japan
+  date: 2024-06-15
+  location: Osaka, Japan
+  region: Japan
+
+- image: /assets/img/gallery/Fukuoka_BuzoJi_Temple_Jun_2024.jpeg
+  title: Buzoji Temple, Fukuoka
+  date: 2024-06-10
+  location: Fukuoka, Japan
+  region: Japan
+
+- image: /assets/img/gallery/Daizaifu_Jun_2024.jpeg
+  title: Dazaifu
+  date: 2024-06-09
+  location: Dazaifu, Japan
+  region: Japan
+
+- image: /assets/img/gallery/Kitakyushu_Jun_2024.jpeg
+  title: Kitakyushu
+  date: 2024-06-08
+  location: Kitakyushu, Japan
+  region: Japan
+
+- image: /assets/img/gallery/Kokura_Station_Jun_2024.jpeg
+  title: Kokura Station
+  date: 2024-06-07
+  location: Kokura, Japan
+  region: Japan
+
+- image: /assets/img/gallery/Saga_castle_Jun_2024.jpeg
+  title: Saga Castle
+  date: 2024-06-06
+  location: Saga, Japan
+  region: Japan
+
+- image: /assets/img/gallery/Hangzhou_Lingyin_Temple_Jun_2024.jpeg
+  title: Lingyin Temple
+  date: 2024-06-02
+  location: Hangzhou, China
+  region: China
+
+- image: /assets/img/gallery/Hangzhou_Lingyin_Temple_2_Jun_2024.jpeg
+  title: Lingyin Temple II
+  date: 2024-06-02
+  location: Hangzhou, China
+  region: China
+
+- image: /assets/img/gallery/Hangzhou_WestlakeUniversity_Jun_2024.jpeg
+  title: Westlake University
+  date: 2024-06-01
+  location: Hangzhou, China
+  region: China
+
+- image: /assets/img/gallery/Hangzhou_Xihu_Music_Fest_May_2024.jpeg
+  title: West Lake Music Festival
+  date: 2024-05-01
+  location: Hangzhou, China
+  region: China
+
+- image: /assets/img/gallery/Dongji_Island_Apr_2024.jpeg
+  title: Dongji Island
+  date: 2024-04-15
+  location: Dongji Island, Zhoushan, China
+  region: China
+
+- image: /assets/img/gallery/Dongji_Island_beacon_Apr_2024.jpeg
+  title: Dongji Island Beacon
+  date: 2024-04-15
+  location: Dongji Island, Zhoushan, China
+  region: China
+
+- image: /assets/img/gallery/Hangzhou_Apr_2024.jpeg
+  title: Hangzhou
+  date: 2024-04-01
+  location: Hangzhou, China
+  region: China
+
+- image: /assets/img/gallery/Hangzhou_Westlake_Mar_2024.jpeg
+  title: West Lake
+  date: 2024-03-15
+  location: Hangzhou, China
+  region: China
+
+- image: /assets/img/gallery/Hangzhou_Westlake_Wuguitan_Mar_2024.jpeg
+  title: West Lake Wuguitan
+  date: 2024-03-15
+  location: Hangzhou, China
+  region: China
+
+- image: /assets/img/gallery/Zhoushan_beach_Mar_2024.jpeg
+  title: Zhoushan Beach
+  date: 2024-03-10
+  location: Zhoushan, China
+  region: China
+
+- image: /assets/img/gallery/Hangzhou_Church_Aug_2023.jpeg
+  title: Hangzhou Church
+  date: 2023-08-01
+  location: Hangzhou, China
+  region: China
+
+- image: /assets/img/gallery/Cambridge_Trinity_College_Sep_2022.jpeg
+  title: Trinity College, Cambridge
+  date: 2022-09-01
+  location: Cambridge, UK
+  region: UK
+
+- image: /assets/img/gallery/HKPU_Sep_2022.jpeg
+  title: Hong Kong Polytechnic University
+  date: 2022-09-01
+  location: Hong Kong
+  region: Hong Kong
+
+- image: /assets/img/gallery/North_Berwick_Jun_2022.jpeg
+  title: North Berwick
+  date: 2022-06-01
+  location: North Berwick, UK
+  region: UK
+
+- image: /assets/img/gallery/Edi_Holyrood_Park_Cliff2_2022.jpeg
+  title: Holyrood Park Cliff
+  date: 2022-01-01
+  location: Edinburgh, UK
+  region: UK
+
+- image: /assets/img/gallery/Edi_Holyrood_Park_Cliff_2022.jpeg
+  title: Holyrood Park Cliff II
+  date: 2022-01-01
+  location: Edinburgh, UK
+  region: UK
+
+- image: /assets/img/gallery/Edi_Holyrood_Park_Dec_2021.jpeg
+  title: Holyrood Park
+  date: 2021-12-01
+  location: Edinburgh, UK
+  region: UK
+
+- image: /assets/img/gallery/Edi_Holyrood_Park_sidewalk_Dec_2021.jpeg
+  title: Holyrood Park Sidewalk
+  date: 2021-12-01
+  location: Edinburgh, UK
+  region: UK
+
+- image: /assets/img/gallery/Edinburgh_Newington_Oct_2021.jpeg
+  title: Newington
+  date: 2021-10-01
+  location: Edinburgh, UK
+  region: UK
+
+- image: /assets/img/gallery/Edinburgh_Blackford_2021.jpeg
+  title: Blackford Hill
+  date: 2021-09-15
+  location: Edinburgh, UK
+  region: UK
+
+- image: /assets/img/gallery/Edinburgh_Meadows_Sep_2021.jpeg
+  title: The Meadows
+  date: 2021-09-10
+  location: Edinburgh, UK
+  region: UK
+
+- image: /assets/img/gallery/Edinburgh_Street_Sep_2021.jpeg
+  title: Edinburgh Street
+  date: 2021-09-01
+  location: Edinburgh, UK
+  region: UK
+
+- image: /assets/img/gallery/Doha_Sep_2021.jpeg
+  title: Doha
+  date: 2021-09-01
+  location: Doha, Qatar
+  region: Qatar
+
+- image: /assets/img/gallery/shenzhen_trees_Sep_2021.jpeg
+  title: Shenzhen Trees
+  date: 2021-09-01
+  location: Shenzhen, China
+  region: China
+
+- image: /assets/img/gallery/nanjing_July_2021.jpeg
+  title: Nanjing
+  date: 2021-07-01
+  location: Nanjing, China
+  region: China
+
+- image: /assets/img/gallery/wuhan_Jun_2021.jpeg
+  title: Wuhan
+  date: 2021-06-01
+  location: Wuhan, China
+  region: China

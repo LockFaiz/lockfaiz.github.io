@@ -45,14 +45,16 @@
 
   <div class="sidebar-bottom w-100">
     {% unless site.theme_mode %}
-      <div class="sidebar-bottom-row mode-toggle-row">
-        <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
+      <div class="sidebar-bottom-mode">
+        <button type="button" aria-label="Switch Mode" id="mode-toggle">
           <i class="fas fa-adjust"></i>
+          <span class="contact-label">Theme</span>
         </button>
       </div>
+      <hr class="sidebar-divider">
     {% endunless %}
 
-    <div class="sidebar-bottom-row contact-icons-row">
+    <div class="sidebar-bottom-contacts">
     {% for entry in site.data.contact %}
       {% case entry.type %}
         {% when 'github', 'twitter' %}
@@ -90,11 +92,16 @@
           {% endunless %}
         >
           <i class="{{ entry.icon }}"></i>
+          <span class="contact-label">{{ entry.type | capitalize }}</span>
         </a>
       {% endif %}
     {% endfor %}
     </div>
   </div>
   <!-- .sidebar-bottom -->
+
+  <button type="button" id="sidebar-collapse-btn" class="btn" aria-label="Toggle Sidebar" title="Toggle Sidebar">
+    <i class="fas fa-chevron-left"></i>
+  </button>
 </aside>
 <!-- #sidebar -->
