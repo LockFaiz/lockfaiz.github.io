@@ -1,6 +1,14 @@
 document.addEventListener('DOMContentLoaded', function () {
+  // Remove shimmer class from gallery images
+  document.querySelectorAll('.gallery-item img').forEach(function (img) {
+    img.classList.remove('shimmer');
+    img.addEventListener('load', function () {
+      img.classList.remove('shimmer');
+    });
+  });
+
   // Region filter
-  var filterBtns = document.querySelectorAll('.gallery-filter .btn');
+  var filterBtns = document.querySelectorAll('.gallery-filter-btn');
   var items = document.querySelectorAll('.gallery-item');
 
   filterBtns.forEach(function (btn) {
