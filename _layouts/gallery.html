@@ -45,6 +45,12 @@ layout: default
     object-fit: cover;
     transition: transform 0.3s;
   }
+  .gallery-item img.shimmer {
+    background: none;
+  }
+  .gallery-item img.shimmer::before {
+    display: none;
+  }
   .gallery-item:hover img {
     transform: scale(1.05);
   }
