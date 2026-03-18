@@ -18,7 +18,7 @@ $-breakpoints: (
 
 /* Less than the given width */
 @mixin lt($width) {
-  @media all and (max-width: calc(#{$width} - 1px)) {
+  @media all and (max-width: #{$width - 1px}) {
     @content;
   }
 }

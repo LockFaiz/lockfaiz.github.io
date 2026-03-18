@@ -436,7 +436,7 @@ mjx-container {
     }
 
     /* Pad horizontal */
-    @include bp.between(992px, calc(#{bp.get(xl)} - 1px)) {
+    @include bp.between(992px, bp.get(xl) - 1px) {
       .col-lg-11 {
         flex: 0 0 96%;
         max-width: 96%;

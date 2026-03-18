@@ -39,7 +39,7 @@
       display: none;
     }
 
-    @include bp.between(bp.get(lg), calc(#{bp.get(xl)} - 1px)) {
+    @include bp.between(bp.get(lg), bp.get(xl) - 1px) {
       width: 65%;
       overflow: hidden;
       text-overflow: ellipsis;

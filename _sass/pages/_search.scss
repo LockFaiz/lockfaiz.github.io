@@ -62,7 +62,7 @@ search {
 #search-results {
   padding-bottom: 3rem;
 
-  @include bp.between(bp.get(lg), calc(#{bp.get(xl)} - 1px)) {
+  @include bp.between(bp.get(lg), bp.get(xl) - 1px) {
     > div {
       max-width: 700px;
     }
