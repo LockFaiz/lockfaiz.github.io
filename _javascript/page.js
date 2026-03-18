@@ -7,11 +7,11 @@ import {
   loadMermaid
 } from './modules/components';
 
+initSidebar();
+initTopbar();
+basic();
 loadImg();
 imgPopup();
 initToc();
-initSidebar();
-initTopbar();
 initClipboard();
 loadMermaid();
-basic();

@@ -9,12 +9,12 @@ import {
   loadMermaid
 } from './modules/components';
 
+initSidebar();
+initTopbar();
+basic();
 loadImg();
 initToc();
 imgPopup();
-initSidebar();
 initLocaleDatetime();
 initClipboard();
-initTopbar();
 loadMermaid();
-basic();
