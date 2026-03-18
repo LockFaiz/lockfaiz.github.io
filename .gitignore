@@ -25,6 +25,5 @@ package-lock.json
 # Claude Code
 .claude/
 
-# Misc 忽视一下文件
+# Misc
 _sass/vendors
-assets/js/dist
