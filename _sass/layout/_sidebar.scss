@@ -319,6 +319,7 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
 #sidebar.collapsed {
   @include bp.lg {
     width: 0;
+    overflow: visible;
     border-right: none;
 
     .profile-wrapper,
@@ -336,7 +337,6 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
       height: 36px;
       opacity: 0.8;
       border-radius: 0 50% 50% 0;
-      overflow: visible;
 
       i {
         transform: rotate(180deg);
