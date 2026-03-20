@@ -45,5 +45,4 @@ I am originally from Xinzheng, Henan — a city rich in history as the legendary
 - 2017.09 - 2021.06, B.Sc in Biotechnology, Central China Normal University, Wuhan, China.
 
 ## Email
-- kivated [AT] outlook [DOT] com
 - jian.song [AT] ucdenver [DOT] edu

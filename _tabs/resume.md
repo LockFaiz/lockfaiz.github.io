@@ -14,11 +14,11 @@ order: 4
 
 <div class="contact-info mb-4 text-muted" style="font-size: 0.95rem;">
   <i class="fas fa-envelope me-1"></i>
-  <a href="#" id="email-link">kivated [AT] outlook [DOT] com</a>
+  <a href="#" id="email-link">jian.song [AT] ucdenver [DOT] edu</a>
   <script>
     (function() {
-      var user = "kivated";
-      var domain = "outlook.com";
+      var user = "jian.song";
+      var domain = "ucdenver.edu";
       var link = document.getElementById("email-link");
       link.href = "mailto:" + user + "@" + domain;
     })();

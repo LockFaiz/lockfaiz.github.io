@@ -26,8 +26,10 @@ To keep the repository size under 1MB and maintain maximum privacy, follow this 
 
 ## 3. Privacy & Security Mandates
 
+- **STRICT PROHIBITION ON PII (Personally Identifiable Information)**: **NEVER** include phone numbers, personal residential addresses, or raw, unprotected personal data in any public-facing file (e.g., Markdown, HTML, YAML). If parsing documents (like a CV PDF), you must proactively redact phone numbers before rendering them to the web.
 - **EXIF Stripping**: Never push raw camera photos directly to the `assets/` folder without stripping GPS/Metadata. External hosts (ImgBB/Cloudinary) usually handle this.
 - **Email Obfuscation**: The Resume (`_tabs/resume.md`) and About pages use JavaScript-based obfuscation and `[AT]` / `[DOT]` visual markers. **Never revert to plain text `mailto:` links.**
+- **Social Links**: Use generic labels (e.g., "GitHub", "Twitter") instead of explicit usernames to prevent search engine indexing and scraping.
 - **Credential Protection**: Strictly adhere to the `.gitignore`. Never log or commit `.env` or sensitive system configs.
 
 ## 4. Maintenance Notes
