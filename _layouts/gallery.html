@@ -27,8 +27,9 @@ layout: default
 
     <div class="gallery-grid">
       {% for photo in photos %}
-        <div class="gallery-item" data-region="{{ photo.region }}" data-src="{{ photo.image }}" data-title="{{ photo.title }}" data-location="{{ photo.location }}" data-date="{{ photo.date }}">
-          <img src="{{ photo.image }}" alt="{{ photo.title }}" loading="lazy">
+        {% capture img_url %}{% include media-url.html src=photo.image %}{% endcapture %}
+        <div class="gallery-item" data-region="{{ photo.region }}" data-src="{{ img_url | strip }}" data-title="{{ photo.title }}" data-location="{{ photo.location }}" data-date="{{ photo.date }}">
+          <img src="{{ img_url | strip }}" alt="{{ photo.title }}" loading="lazy">
           <div class="gallery-overlay">
             <div class="gallery-title">{{ photo.title }}</div>
             <div class="gallery-meta">
